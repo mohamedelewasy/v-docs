@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "build": "tsc -p tsconfig.json && copy package.json build",
+    "build": "tsc -p tsconfig.json",
     "start": "cd build && node server.js"
   },
   "keywords": [],
