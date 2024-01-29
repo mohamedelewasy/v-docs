@@ -1,0 +1,7 @@
+build
+frontend
+logs
+node_modules
+.todo
+build.zip
+package-lock.json
