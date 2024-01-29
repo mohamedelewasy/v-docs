@@ -50,11 +50,11 @@ connect(env.db.url)
       logger.warn(msg);
       console.log(msg);
     });
-    startBackup({
-      backupContinuouslyDB: true,
-      backupOnceDB: false,
-      restoreBackupDB: true,
-    });
+    // startBackup({
+    //   backupContinuouslyDB: true,
+    //   backupOnceDB: false,
+    //   restoreBackupDB: true,
+    // });
   })
   .catch(() => {
     const msg = `error in database connection to ${env.db.url}`;
